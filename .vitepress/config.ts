@@ -11,19 +11,19 @@ const nav: ThemeConfig['nav'] = [
     text: 'Docs',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
+      { text: 'Handleiding', link: '/guide/introduction' },
       { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
+      { text: 'Voorbeelden', link: '/examples/' },
+      { text: 'Snelstart', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'Woordenlijst', link: '/glossary/' },
+      { text: 'Foutverwijzing', link: '/error-reference/' },
       {
         text: 'Vue 2 Docs',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'Migratie van Vue 2',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -38,7 +38,7 @@ const nav: ThemeConfig['nav'] = [
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'Ecosysteem',
     activeMatch: `^/ecosystem/`,
     items: [
       {
@@ -47,9 +47,9 @@ const nav: ThemeConfig['nav'] = [
           { text: 'Partners', link: '/partners/' },
           { text: 'Developers', link: '/developers/' },
           { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
+          { text: 'UI Componenten', link: 'https://ui-libs.vercel.app/' },
           {
-            text: 'Certification',
+            text: 'Certificatie',
             link: 'https://certificates.dev/vuejs/?ref=vuejs-nav'
           },
           { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
@@ -57,7 +57,7 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Officiele Libraries',
         items: [
           { text: 'Vue Router', link: 'https://router.vuejs.org/' },
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
@@ -65,7 +65,7 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'videocursussen',
         items: [
           {
             text: 'Vue Mastery',
@@ -92,18 +92,18 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'News',
+        text: 'Nieuws',
         items: [
           { text: 'Blog', link: 'https://blog.vuejs.org/' },
           { text: 'Twitter', link: 'https://twitter.com/vuejs' },
           { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Nieuwsbrieven', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'Over',
     activeMatch: `^/about/`,
     items: [
       { text: 'FAQ', link: '/about/faq' },
@@ -116,7 +116,7 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Code of Conduct', link: '/about/coc' },
       { text: 'Privacy Policy', link: '/about/privacy' },
       {
-        text: 'The Documentary',
+        text: 'De Documentaire',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
@@ -126,7 +126,7 @@ const nav: ThemeConfig['nav'] = [
     link: '/sponsor/'
   },
   {
-    text: 'Experts',
+    text: 'Experten',
     badge: { text: 'NEW' },
     activeMatch: `^/(partners|developers)/`,
     items: [
@@ -139,20 +139,20 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'Aan de slag',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'Introductie', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'Snelstart',
           link: '/guide/quick-start'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'Het essentiële',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'Creëer een Applicatie',
           link: '/guide/essentials/application'
         },
         {
@@ -160,7 +160,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/template-syntax'
         },
         {
-          text: 'Reactivity Fundamentals',
+          text: 'Reactiviteit Fundamenten',
           link: '/guide/essentials/reactivity-fundamentals'
         },
         {
@@ -168,14 +168,14 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/guide/essentials/computed'
         },
         {
-          text: 'Class and Style Bindings',
+          text: 'Class & Style Bindings',
           link: '/guide/essentials/class-and-style'
         },
         {
-          text: 'Conditional Rendering',
+          text: 'Conditional Renderen',
           link: '/guide/essentials/conditional'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Lijst Renderen', link: '/guide/essentials/list' },
         {
           text: 'Event Handling',
           link: '/guide/essentials/event-handling'
@@ -188,7 +188,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text: 'Watchers', link: '/guide/essentials/watchers' },
         { text: 'Template Refs', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
+          text: 'Basis van componenten',
           link: '/guide/essentials/component-basics'
         }
       ]
@@ -301,7 +301,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: 'Extra Topics',
       items: [
         {
-          text: 'Ways of Using Vue',
+          text: 'Manieren om Vue te gebruiken',
           link: '/guide/extras/ways-of-using-vue'
         },
         {
@@ -579,7 +579,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
   lang: 'en-US',
   title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  description: 'Vue.js - Het Progressieve JavaScript Framework',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
@@ -714,7 +714,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       },
       {
         link: '/translations/',
-        text: 'Help Us Translate!',
+        text: 'Help ons vertalen!',
         isTranslationsDesc: true
       }
     ],

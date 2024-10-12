@@ -13,18 +13,18 @@ onMounted(load)
   <section id="hero">
     <img id="uwu" alt="Vue.js Kawaii Logo by @icarusgkx" />
     <h1 class="tagline">
-      The
-      <span class="accent">Progressive</span>
+      Het
+      <span class="accent">Progressieve</span>
       <br />JavaScript Framework
     </h1>
     <p class="description">
-      An approachable, performant and versatile framework for building web
-      user interfaces.
+      Een toegankelijk, performant en veelzijdige framework voor het bouwen van 
+      gebruikersinterfaces.
     </p>
     <p class="actions">
       <VueMasteryModal />
       <a class="get-started" href="/guide/introduction.html">
-        Get Started
+        Ga aan de slag
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -37,9 +37,9 @@ onMounted(load)
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">Install</a>
+      <a class="setup" href="/guide/quick-start.html">Installeren</a>
       <a class="security" href="https://v2.vuejs.org/eol/" target="_blank">
-        Get Security Updates for Vue 2
+        Ontvang beveilingsupdates voor Vue 2
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -78,24 +78,24 @@ onMounted(load)
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Approachable</h2>
+      <h2>Toegankelijk</h2>
       <p>
-        Builds on top of standard HTML, CSS and JavaScript with intuitive
-        API and world-class documentation.
+        Bouw op basis van standaard HTML, CSS en JavaScript samen met een intuïtieve 
+        API en documentatie van wereldklasse.
       </p>
     </div>
     <div class="vt-box">
       <h2>Performant</h2>
       <p>
-        Truly reactive, compiler-optimized rendering system that rarely
-        requires manual optimization.
+        Een reactief, compiler-geoptimaliseerd renderingsysteem dat 
+        zelden manuale optimalisatie vereist.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Versatile</h2>
+      <h2>Veelzijdig</h2>
       <p>
-        A rich, incrementally adoptable ecosystem that scales between a
-        library and a full-featured framework.
+        Een rijke, incrementeel te adopteren ecosysteem dat schaalt tussen een 
+        library en volledig functioneel framework.
       </p>
     </div>
   </section>
@@ -103,7 +103,7 @@ onMounted(load)
   <section id="sponsors">
     <h2>Platinum Sponsors</h2>
     <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
+    <h2>Gouden Sponsors</h2>
     <SponsorsGroup tier="gold" placement="landing" />
   </section>
 

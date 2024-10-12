@@ -1,28 +1,36 @@
+# Bijdragen aan de Nederlandse versie van vuejs.org
+
+Dit project is een fork van vuejs/docs met als doel de inspanningen voor de vertaling in het Nederlands te centraliseren.
+
+Wil je bijdragen aan dit project? Geweldig! Graag verwijzen we je door naar het gedeelte [Bijdragen](#Bijdragen). Zo weet je precies hoe je een pull request aanmaakt.
+
+Voordat je begint, neem even de tijd om de [richtlijnen voor het vertalen van de documentatie](https://github.com/vuejs-translations/guidelines) door te nemen.
+
 # vuejs.org
 
-## Contributing
+## Bijdragen
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+Deze site is gebouwd met [VitePress](https://github.com/vuejs/vitepress) en is afhankelijk van [@vue/theme](https://github.com/vuejs/vue-theme). De inhoud van de site is geschreven in Markdown-formaat en bevindt zich in `src`. Voor eenvoudige bewerkingen kunt u het bestand rechtstreeks op GitHub bewerken en een Pull Request aanmaken.
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+Voor lokale ontwikkeling wordt [pnpm](https://pnpm.io/) aanbevolen als package manager:
 
 ```bash
 pnpm i
 pnpm run dev
 ```
 
-This project requires Node.js to be `v18` or higher. And it is recommended to enable corepack:
+Dit project vereist dat Node.js `v18` of hoger is. En het wordt aanbevolen om corepack te gebruiken:
 
 ```bash
 corepack enable
 ```
 
-## Working on the content
+## Werken aan de inhoud
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+-Zie de VitePress-documentatie over ondersteunde [Markdown-extensies](https://vitepress.dev/guide/markdown) en de mogelijkheid om [Vue-syntax binnen markdown te gebruiken](https://vitepress.dev/guide/using-vue).
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
+-Zie de [Schrijfgids](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) voor onze regels en aanbevelingen voor het schrijven en onderhouden van documentatie-inhoud.
 
-## Working on the theme
+## Werken aan het thema
 
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+Als er wijzigingen moeten worden aangebracht voor het thema, bekijk dan de [instructies voor het ontwikkelen van het thema naast de documentatie](https://github.com/vuejs/vue-theme#developing-with-real-content).
